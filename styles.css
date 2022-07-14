@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+p {
+    margin-top: -10px;
+}
+
+#hero {
+    background-image: url("https://www.prologis.com/sites/corporate/files/images/2017/03/NL_Rotterdam%2C-Netherlands.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-h2 {
+    color: whitesmoke;
+    background-color: #71b48d;
+    padding: 5px 10px;
+    border-radius: 10px;  
+}
+
+.hero-h2:hover {
+    opacity: 0%;
+}
+
+.hero-h3 {
+    color: whitesmoke;
+    background-color: #404e7c;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 0px 20px; 
+}
+
+.hero-h3:hover {
+    opacity: 0%;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F1F9;
+    padding: 30px 0 0 15px;
+}
+
+.activity {
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #71b48d;
+    
+}
+
+.activity-block {
+    width: 150px;
+}
+
+.guide-card {
+    display: flex;
+    width: 400px;
+    align-items:  center;
+    justify-content: center;
+    margin: 50px auto;;
+    padding: 10px 10px;
+    border-bottom: 5px solid #3f7857;
+    border-radius: 5px;
+    color: white;
+    background-color: #71B48D;
+}
+
+.card-info {
+    padding: 0 10px
+}
+
+.guide-img {
+    height: 120px;
+    width: fit-content;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+}
+
+.guide-info {
+    font-style: italic;
+}
